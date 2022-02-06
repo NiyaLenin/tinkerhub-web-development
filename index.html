@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BACKGROUND COLOR</title> 
+</head>
+
+<body>
+      <button>CLICK ME</button>
+      <script type="text/javascript">
+
+          var color = [,"#FF3D00","#FF9100","#FFC400","#FFEA00","#00E676","#B2FF59",
+           "#C6FF00","#FF1744","#EA80FC","#1DE9B6","#84FFFF "];
+          var i = 0;
+          document.querySelector("button").addEventListener("click",function() { 
+              i = 1 <color.length ? ++i : 0;
+          document.querySelector("body").style.background = color[i]
+
+          } )
+
+      </script>
+
+</body>
+</html>
